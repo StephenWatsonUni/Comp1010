@@ -1,0 +1,255 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{times}
+%\usepackage{fancyhdr}
+%\usepackage{lastpage}
+\usepackage{geometry}
+\geometry{
+    top=1cm,
+    left=1cm,
+    right=1cm,
+    bottom=1.5cm % Min size possible due to page number
+ }
+\usepackage{parskip}
+%\setlength{\parskip}{0.75em}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+\usepackage{float}
+\usepackage{caption}
+\usepackage{booktabs} % Top and bottom rules for table
+\usepackage[nottoc]{tocbibind}
+
+\providecommand{\keywords}[1]
+{
+  %\small	
+  \textbf{\textit{Keywords---}} #1
+}
+
+%\pagestyle{fancy}
+%\fancyhf{}
+%\lhead{COMP1010}
+%\rhead{Assignment 1: Report}
+%\rfoot{Page \thepage\ of \pageref{LastPage}}
+
+\begin{document}
+\pagenumbering{gobble} 
+
+\title{\Large \textsc{COMP1010 Computing Fundamentals - Semester 1, 2021 \\ Assignment 1: Report} \\ [2.0cm]
+\hrule{} \\ [1.0cm]
+\large \bfseries A brief history of the rise of e-business and specialised software development, \\ the influence of the global COVID-19 pandemic on e-commerce \\ and a review of important associated literature. \\ [1.0cm]
+\hrule{} \\ [2.0cm]}
+
+\author{
+    Isabella Andrews - C3204936 \\
+    Stephen Watson - C3339952 \\
+    Jake Whamond - C3327794 \\
+    Huanhuan Zheng - C3359606 \\ [2.0cm]}
+
+\date{\bfseries \today}
+
+\maketitle
+
+\newpage
+\pagenumbering{arabic} 
+\newpage
+
+\begin{abstract}
+This report aims to introduce and define e-business, provide a history of e-business and its relationship with specialised software, and examine the effects of the 2020 COVID-19 global pandemic on e-commerce, specifically as it relates to specialised software development. \par
+
+Change and evolution are constant in technology, particularly when paired with e-business and a global pandemic such as COVID-19. As it might well prove, a shift in priorities within the realm of academic research and the world’s societies might also result in the evolution and development of new specialised software as humankind continues to evolve and adapt to their circumstances and environment. \par
+
+COVID-19 is one of the most significant events to occur in our lifetime. It is essential to understand the impact in the present and how such a disruption will shape the future. Through the internet, e-business has risen to the challenge of using specialised software to keep students in school and employees in jobs. Furthermore, allowing business and economies to recover and supporting vital government agencies like healthcare in times of mass turmoil. \par
+
+The findings of this report show how the different branches of e-business have been able to grow considerably in times of crisis due to adaptability. Moreover, the results show how they can handle sizeable disruptions, encompassing massive losses short term, and bounce back over a reasonably short time frame. These conclusions reiterate how specialised software, with this flexibility and ability to adapt, is becoming the backbone of e-business and why it is here to stay. \par
+
+\vspace{1cm}
+\keywords{e-business, specialised software systems, COVID-19}
+
+\end{abstract}
+
+\newpage
+
+\tableofcontents
+
+\newpage
+
+\section{Introduction}
+The concept of business, the production and sale of goods and services, has existed in some recognisable form since time immemorial. However, our early ancestors trading an animal skin for a day’s labour raising a barn could never have imagined a 21st Century where the world can conduct business using a handheld computerised device from the comfort of a lounge chair. While there were earlier forays into electronic business (e-business), a New York Times issue from 1994 titled ‘Attention Shoppers: Internet is Open’ \cite{lewis} heralded a new era of possibilities. Business models migrating from ‘bricks and mortar’ stores to embrace an online presence created an opportunity to develop specialised software. \par 
+
+Since the 1990s, e-business and e-commerce have moved along at a steady but unhurried pace; however, the global COVID-19 pandemic of 2020 saw most of the world’s population staying home. The results of global lockdowns (i.e. ‘stay at home’ orders) saw the forceful transition of businesses to online platforms to ensure their survival. This phenomenon created a boom in the associated software development. A review of professional literature encompassing software development and e-business will demonstrate these topics’ importance within a broader computing context. \par
+
+\section{Definitions}
+The general population is well accustomed to using the ‘e’ prefix to represent ‘electronic’ (think email, eBooks and e-banking). However, it is helpful for this report’s purposes to first define e-business, e-commerce and specialised software before exploring the relationship between the terms.
+
+e-Business, although often used interchangeably with e-commerce, describes both a business that operates in an electronic format and the technologies used to support its online presence. e-Commerce, however, refers to the online trade of products and service. e-Commerce is a vital component of e-business; however, it is not the only component. e-Business requires the development and use of specialised software to store and retrieve digital information, facilitate communication, and streamline business processes. In short, e-business encompasses information, communication, and transaction \cite{ionos}, all of which have experienced radical change and exponential growth due to COVID-19 and are discussed in detail later in this report.
+
+Britannica \cite{britannica} defines \emph{software} as a set of instructions, rules, and procedures associated with the general operation of a computer system. However, specialised software design meets a specific need and functionality required by an individual, group or business. This specialised type of software has been developed and adopted across all aspects of e-business. From being able to take payments for a business, check a client’s history and store specific and often business-critical data. 
+
+The importance of specialised software development related to e-business and why both e-business and specialised software play an essential role in our day-to-day activities is discussed later in the report.
+
+\section{History}
+When one thinks of the term business, it is easy to imagine a rectangular building with a double-height façade and bold signage, a brightly lit window with goods and services on display and a warm welcome by customer service staff. There will be a counter of varying heights and levels of grandeur, seating for customers that may or may not entice them to linger and some method of exchanging payment. Primarily known as the ‘bricks and mortar’ model, this has been a staple and recognisable business incarnation for several hundred years. \par 
+
+With the technological developments of the industrial age (typewriters and printing machines) and the introduction of computers in the mid 20th Century, business practices have shifted steadily from pen and paper to various computerisation forms. Further advances were made possible with the introduction of word processing software, which took on many incarnations before Microsoft Word and associated Suite emerged as the clear victor in the early 1990s \cite{redmond}. While these developments were able to assist businesses in operating more efficiently, there was no thought of businesses leaving behind their bricks and mortar locations to move into the stratosphere of the newly born dial-up internet of the 1990s. \par 
+
+There were technological developments from the 1960s, such as electronic data interchange (EDI), that contributed to the foundations of e-business \cite{miva}. However, it was the sale of a \$12.48 compact disc (CD) that acted as the historical ribbon-cutting ceremony of online shopping and alerted the world to the potential of e-business and e-commerce. On 11 August 1994, a 21-year-old Pennsylvanian college student sold a copy of Sting’s ‘Ten Summoner’s Tales’ to a friend – over the internet using a secure credit card transaction \cite{arcand}. Suddenly, the internet that had been designed and used for the storage and retrieval of information had a new and lucrative window of possibility. \par 
+
+What is of most interest, in this case, is that the reports at the time focused not on the internet capability but the security, the data encryption software, and were emphatic in guaranteeing user’s privacy, “It’s really clear that most companies want the security prior to doing major commitments to significant electronic commerce on the Internet” \cite{lewis}. The internet had already created a digital space for business and commerce to exist, but preventing the launch was the fear of the interception of private details. It was at this junction that specialised software came into play in a new and vital way. In essence, the birth of e-business can be seen not as the creation of the internet but as the moment that an intrepid college student took a readily available version of data encryption software and turned it into software that could support a secure credit card transaction.
+
+\section{Developments during COVID-19}
+For this report’s purposes, it is helpful to separate e-business into three prominent areas, information, communication and transaction, to examine how the global COVID-19 pandemic of 2020 has affected specialised software development and created a possibly permanent shift in business practices. \par 
+
+\subsection{Information}
+Information can be viewed as the cornerstone of any e-business and encompasses all forms of data required by the business to function daily and produce or deliver its product or service. For example, a business delivering aged care services will have information about patients, staff, policies and procedures that need to be stored, organised and retrieved at any given time. \par 
+
+The COVID-19 pandemic required many businesses in Australia to close their doors entirely. The pandemic also saw the delivery of goods and services severely impacted due to mandatory lockdowns and the government policies surrounding social distancing. With employees relegated to working remotely (i.e. from home), one of the significant hurdles to overcome was what to do with business information and how to access and share it effectively. At the height of global lockdowns, an estimated 70\% of the workforce worked remotely at least part of the week and software companies needed to move quickly to keep their products relevant to the new remote landscape \cite{diamond}. Utilising existing cloud storage, file sharing, and real-time document collaboration meant that employees could access, use and modify vital business information collectively, simulating a team meeting and enhancing the previous model of passing around copies of a printed agenda. \par 
+
+Some software development in this area included automatic synchronisation across various folders and devices, password-protected files, file activity alerts, shared file folders, and offline accessibility \cite{diamond}.
+
+\subsection{Communication}
+For a business to operate effectively, there must be a clear communication channel between employees, the company and its customers. This channel was broken, almost overnight, during the height of COVID-19 lockdowns. \par 
+
+The most popular and perhaps surprising development for internal communication was the almost immediate boom of video conferencing platforms; welcome, Zoom. Initially launched in 2013, Zoom was the brainchild of a computer geek who longed for an easier way to chat with his long-distance girlfriend. What was different about this software from previous video conferencing services was the ability to host multiple locations simultaneously. Along with a limited version made available for free, this same feature saw two hundred million people using Zoom in March 2020 for business, education, and socialisation \cite{enssle}. Similar software includes Skype, FaceTime and Microsoft Teams, and Discord, to name a few. \par 
+
+For external communication, especially advertising, retail companies, in particular, were forced to move entirely online in order to survive, and this situation certainly favoured those businesses limber enough to use technology to their advantage. Enter augmented reality. Originally associated with gaming, such as the famous Pokemon Go app of 2016, this software allows users to view a real-world image in front of them overlaid with a digital image \cite{franklin}. Astute retail companies in 2020 quickly latched onto augmented reality as a way of providing a unique and exciting shopping experience to customers who were isolated within their own homes and unable to visit bricks and mortar locations. Interestingly, furniture stores and home retailers, such as Home Depot and IKEA, embraced this technology the most successfully \cite{mckinnon}. Customers could download a specially developed app to their smartphone, use the inbuilt camera to view a real-world image of their living space and digitally insert a piece of furniture before purchase. \par 
+
+Other forms of digital communication that have come to the fore in e-business since 2020 include automated text messaging and chatbots to simultaneously advance effective communication to an unlimited number of customers and bypass the need to rely on replying to the individual email or social media messages.
+
+\subsection{Transaction}
+The ultimate purpose of business is to lead to a transaction between the business and the customer, known in a digital space as e-commerce. Although ‘online shopping’ has existed in varying forms for the past couple of decades, it invariably was seen as an option rather than a necessity and often viewed with a level of trepidation by businesses and customers with lower digital literacy levels. \par 
+
+Once again, e-commerce experienced exponential growth during the COVID-19 pandemic, to the tune of \$52.2 billion worth of sales in Australia in 2020 \cite{knowles}. This spike in demand required businesses to introduce new and creative ways to buy and sell while maintaining security. As can be seen from the history of e-business, secure online payments have always been at the heart of any business’s ability to migrate to the digital space successfully. What emerged during COVID-19 was the battle between the merchant-centric security software and the quality of the user’s experience, with businesses struggling to find the perfect balance between minimising fraud and attracting customers \cite{kemp}. However, this is not new but rather an issue exacerbated by the swift and sudden growth of e-commerce within 2020. What has emerged is the need for versatility in software, a certain flexibility that will allow e-commerce software to be adapted to suit an individual business’ needs. \par 
+
+One way that e-business has found to alleviate customer frustration is by developing individual business applications (apps) that can be downloaded to a device, allowing the customer to remain logged in and facilitate faster transactions.  With 72\% of customers using smartphones to shop online \cite{columbus}, apps effectively circumvent a website’s need and enable checkout on a smaller screen. With mobile apps also facilitating ‘click and collect’ pick up of goods and in-store self-scanning, businesses savvy enough to have launched apps during COVID-19 will most likely see lasting use beyond the pandemic as customers begin to re-emerge into the public space once more.
+
+%\newpage
+
+\section{Literature Review}
+One method of gauging the relevance, importance and developments associated with any professional topic is to review the literature written by professionals in the industry, primarily in peer-reviewed journal articles. Following is the summary and review of several recent articles exploring the convergence of e-business and specialised software. \par
+
+\subsection{The Effect of COVID-19 Spread on the E-Commerce Market: The Case of the 5 Largest E-Commerce Companies in the World \cite{abderlin}}
+This article explores how the international spread of COVID-19 has affected e-commerce companies directly by looking at the links between the daily return of the share price based on the company’s growth and sales between 15 March and 25 May 2020. The top 5 largest global companies involved were:
+%\newpage
+\begin{itemize}
+\item Amazon - United States of America (USA), selling across all genres of retail
+\item Alibaba - operated out of mainland China and selling across all genres
+\item Rakuten - based in and operated out of Japan, selling across all genres of retail
+\item Zalando - based in Berlin, Germany, predominantly a footwear company
+\item ASOS - United Kingdom (UK), a major men’s and woman’s fashion retail platform \par
+\end{itemize}
+
+To determine how severely a country was affected by COVID-19, the data utilised the running total of COVID-19 cases in the country, the number of COVID-19 related deaths in the country, and the number of daily new COVID-19 cases acquired in the country. \par
+
+The results found by Abdelrhim and Elsayed stated that the most significant single impact of COVID-19 on e-business was the worldwide disruptions to supply chains compounded by each countries individual lockdown of major factories. This impact was most prevalent in China, as China leads the world in buying raw materials and manufacturing them into finished products. Because of these circumstances, Alibaba was not maintaining growth rates during this period. This result was interesting because e-business was becoming more and more popular. However, e-commerce itself was losing growth as people preferred to purchase goods from the safety of their own homes, but businesses were struggling to produce the retail goods for sale. \par
+
+The end of the study saw the outcome for each company determined by several factors, including:
+\begin{itemize}
+\item the market the companies established themselves in
+\item the country each company was based or operated in 
+\item how each county handled lockdown restrictions
+\end{itemize}
+The circumstances above would show a substantial decline in share prices in the early stages of the COVID-19 pandemic as the share price appeared to be responding to the number of daily cases rather than the number of deaths caused by the virus. \par
+
+At the time, the study concluded that the COVID-19 pandemic disrupted both America’s Amazon and the UK’s ASOS the most significantly, as they recorded the most COVID-19 cases during the period of the study; this led to the running total of COVID-19 cases being the main factor that affected the share price return. In the East-Asian region of the world, the determining factor on the share price returned was the current and new COVID-19 cases. Zalando, based in Germany, were the only business in the study to have its share price affected the most significantly by total COVID-19 deaths. As shown in Table \ref{tab:one}, it is noteworthy that even after the loss of millions of dollars due to COVID-19, the future projections of the companies studied look strong. \par
+
+\vspace{0.5cm}
+\begin{center}
+    \begin{tabular}{l l l l l l l}
+        \toprule
+        \textbf{Company} & \textbf{Headquarters} & \textbf{2020} & \textbf{2021} & \textbf{2022} & \textbf{2023}\\
+        \midrule
+            Amazon & USA & 330,711 & 386,746 & 448,115 & 505,786 \\
+            Alibaba	& China & 519,372 & 671,065 & 834,509 & 1,046,942 \\
+            Rakuten & Japan & 1,423,889 & 1,616,054 & 2,016,036 & 2,497,850 \\
+            Zalando & Germany & 7,633 & 8,905 & 10,033 & 11,109 \\
+            ASOS & UK & 31 & 36 & 41 & 46 \\
+        \bottomrule
+    \end{tabular}
+    \captionof{table}{Expectations of future revenues in United States Dollar (USD) \cite{abderlin}}
+    \label{tab:one}
+\end{center}
+\vspace{0.5cm}
+%\newpage
+
+Although COVID-19 has been a significant disruption to the world and will effectively change our way of life for years to come, the considerable disruption to international business, mainly e-commerce, has now passed, and the effects are beginning to subside. Furthermore, we see just how adaptable e-commerce can be and how versatile e-commerce businesses have become. \par
+
+\subsection{The Impact of Mobile e-Commerce on GDP: A Comparative Analysis between \\ Romania and Germany and how COVID-19 Influences the e-Commerce Activity \\ Worldwide \cite{pantelimon}}
+
+Although primarily studying the European market, this article introduces the topic of mobile commerce, or “the activity of using mobile devices (phones, tablets or any other portable devices) to buy and sell products and services through online store platforms,” dubbed as m-commerce by the authors. It gives a brief but solid overview of the growth of e-commerce and the changes that have occurred as customers increasingly shift towards smartphone use rather than traditional internet use on laptops and monitors. As can be seen in the discussion surrounding software development and COVID-19 above, Pantelimon et al. highlight the importance of e-business software moving seamlessly across various devices to enable a smoother smartphone user experience. Interestingly, this article also outlines several of the innovations explored earlier in this report, such as augmented reality, chatbot software and software providers’ creativity in overcoming the challenges businesses faced in 2020. \par 
+
+The advantages of m-commerce, as outlined by the authors, include the mobile nature of smartphone use that overcomes the sedentary nature of a traditional computer or the physical space taken up by a laptop. Customers can purchase goods and services on the go, anywhere and at any time. The article also confirms the benefit e-business mobile apps provide by minimising the number of screen taps needed to make a purchase, streamlining the checkout process for customers, and removing the need to enter personal and financial details repeatedly. \par 
+
+The authors proceed to their work’s main objective, comparing the established economy of Germany in Western Europe with the developing economy of Romania in Eastern Europe, operating under the hypothesis that the increase of m-commerce has positively impacted Gross Domestic Product (GDP) growth. What follows is a complex economic analysis encompassing internet usage, mobile phone usage and overall GDP across both countries. \par 
+
+What is noteworthy and relevant to this report is the following discussion of COVID-19’s impact on global e-commerce trends (Figure \ref{fig:trends}), primarily as this article was published during 2020. What is lacking in overall hindsight, and arguably any article would be lacking in hindsight as the world is yet to classify itself as post-COVID-19; it redeems in currency and relevance. The authors point out that the initial study presented used data gathered pre-COVID-19 and during a stable economy, so it was essential to address the changes experienced during COVID-19 and continue the research. As stated, “While people switched to working from home and maintaining social distancing measures, their internet consumption behaviour changed as well.” \par 
+
+\vspace{0.5cm}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=14cm]{covid-trends.png}
+    \caption{The impact of COVID-19 on global internet traffic, by industry.\cite{pantelimon}}
+    \label{fig:trends}
+\end{figure}
+%\vspace{0.5cm}
+
+As a result of this study, the authors were able to conclude that although COVID-19 had caused the global economy to decline, e-commerce was one of the sectors that had not only survived but displayed real growth. In most countries, there was either no chance in purchasing frequency or an actual increase in purchase frequency, demonstrating that customers were taking to e-commerce, and by extension, m-commerce, with an ease and swiftness born of necessity. \par 
+
+The real strength of this article is not its purported study of German and Romanian GDP but the fact that it was able to recognise and position itself within the greater context of global commerce at the time of publication, notable the effects of the COVID-19 pandemic. The difficulty in relating this article to this report’s overall purpose is the strong emphasis on e-commerce and m-commerce, with little to no reference to specialised software. Of course, the inference is that m-commerce cannot operate successfully without software development to promote ease of use; however, this is not explicitly stated.
+
+\subsection{The Impact of the COVID-19 Pandemic on User Experience with Online Education \\ Platforms in China \cite{tinggui}}
+The purpose of this article is to examine how online education in China has been affected by COVID-19. The majority of this report, until now, has focused on e-businesses that provide goods rather than services, so the example of an educational institution is of benefit here to explore how a business providing a service can operate in the digital space. \par 
+
+Of course, online study is not new; however, previously, it was viewed as optional rather than compulsory as with online shopping. In 2020, education institutions, like other forms of e-business, were forced to migrate exclusively to online platforms almost overnight to survive and continue learning for their students’ sake. Although the software was already in use, it had never been tested at this new level. \par 
+
+The authors introduce the article by outlining that more than 60 countries worldwide were forced to suspend face-to-face learning at universities and schools, with China being one of the first countries affected. Like many classrooms in the West, Chinese institutions were accustomed to using various videoconferencing software and online educational platforms. The difficulty was ensuring these platforms and associated internet capabilities could cope with the massive influx of students accessing the technology. \par 
+
+The article includes a brief literature review, outlining other studies that have explored similar topics and what the outcomes have shown. Much of this has focused on the merits, or lack thereof, of online education and the overall preference for face-to-face learning. It is easy to understand this mentality; however, previous researchers would not have faced the kind of global lockdowns seen in 2020 to inform their work. The literature on this topic post-COVID-19 will likely shift from should educational institutions offer an online learning option to how best to offer online learning on a mass scale. Unlike the previous article, this study emphasises the user end of the software rather than the business needs, which is vital for any business to consider when launching into the digital space. \par 
+
+The authors acknowledge a lack of current research into online education platforms dating from 2020 onwards. Perhaps because the crisis is yet to subside, researchers are hesitant to publish results too swiftly. It is likely to be the case with most academic writing on e-business and specialised software topics at present and could explain why there is little recent research to be found. \par 
+
+The article then moves on to the qualitative and quantitative measures of capturing data and analysing the various education software and platforms in use. It is important to note that the authors distinguish the aspects and attractiveness of software used for business and education. In short, they acknowledge that the educational institutions and students may well be looking for something different from their software than companies and professional employees. It is a vital distinction and highlights the need for future software to be more malleable if it hopes to appeal to commercial and service provision levels. However, the user experiences universally shared by both businesses and educational institutions place importance on the support services, the video quality and the response speed, to name a few. These are certain areas that software providers will be seeking to improve as swiftly as possible in future. \par 
+
+\subsection{Using Tableau Software as a SaaS Program In Business In Cloud \\ \cite{mihalcescu}}
+This article explores cloud computing technology, Tableau Software in particular, and its role as an integral part of modern e-business. Unlike the previous article, this study explores the processes of a business and the online and cloud environments. An essential aspect of e-business to acknowledge because although it may be the less glamorous, poor cousin of e-commerce, it is just as crucial in the delivery of successful e-business. \par 
+
+As outlined by Mihalcescu et al., the benefits of cloud computing to e-business are the opportunity for internal expansion, a reduction in the cost of information stored on paper, the possibility of product modelling on the customer’s need and lower communication costs. What follows is an exploration of how cloud computing and associated software works in a general sense and the features that benefit a company, namely ease of access, limitless space (although perhaps limited by cost), and opportunities for greater collaboration. \par 
+
+It is important to note that the authors state that cloud software will present a new challenge to security for any business considering its use. Security control differs in a cloud environment from traditional IT solutions and presents a new set of risks to an organisation. The article also acknowledges the inevitability of technical disruptions, which can occur at the point of service to customers without warning. The caveat here is that companies buy access to cloud software rather than ownership, unlike traditional software bought and paid for outright. This access means that when the software providers perform necessary updates, the product will often become unavailable, meaning the company cannot access their information or even provide their service until the update is complete. \par 
+
+While this study contains data gathered in 2019, Figure \ref{fig:cloud} below illustrates that 48\% of the organisation studied viewed cloud computing as either ‘critical’ or ‘very important for their operation.  As per earlier research of this report, it infers that the importance of cloud software has increased following the events of 2020 and the significant increase in employees working remotely. \par 
+
+\vspace{0.5cm}
+\begin{figure}[H]
+    \centering
+    \includegraphics[]{cloud-importance.jpg}
+    \caption{Cloud Importance 2012-2019 \cite{mihalcescu}}
+    \label{fig:cloud}
+\end{figure}
+%\vspace{0.5cm}
+
+The report then moves on to Tableau Software’s outline, providing interactive data visualisation compatible with Microsoft Excel. While a summary of this software is of little relevance to this report’s purpose, it is interesting to note that one of the features highlighted by the authors is the ease of access and distribution of the data created. Moreover, this shows that software companies are aware of and deliberately creating software capable of supporting and facilitating e-business practices such as file sharing with ease. \par
+
+%\newpage
+
+\section{Conclusions}
+The dearth of recent and relevant articles exploring the convergence of e-business and specialised software do not necessarily define these topics as unimportant but rather indicate that they are situated more firmly in the financial world than academia. \par 
+
+Due to the continuous promotion of the social economy, people’s demand for science and technology has become immense. Customers want to enjoy the convenience of the internet and meet the absolute security of their private information. It requires us to continue exploring and studying customer privacy and security in software development into the future. Nevertheless, the development of science and technology is still rapid and stable. \par 
+
+Through the continuous research, innovation, practice and summary of internet leading enterprises in various countries, we will find that excessive innovation and insufficient innovation still coexist. The traditional business model cannot adapt to the Internet era. However, with the continuous economic and social development adjustment, countries worldwide will gradually regulate electronic software, and specialised software will be the driving force for future businesses and economic recovery. \par
+
+In this crisis, the internet has guaranteed social operation, promoted various countries’ economic recovery, and actively encouraged international post-COVID-19 development. With the alleviation of the COVID-19 pandemic, the use of the internet is gradually weakening. However, time will tell whether the effects of the COVID-19 pandemic will shift the emphasis from practicality to theoretical study and analysis. \par
+
+\section{Acknowledgements}
+The authors would like to thank the staff at Lake Macquarie Library in Swansea, NSW.
+
+\newpage
+
+%\nocite{*}
+\bibliographystyle{apalike}
+\bibliography{report}
+
+%\section*{Supporting Information}
+
+\end{document}

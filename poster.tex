@@ -1,0 +1,126 @@
+\documentclass[a0,portrait]{a0poster}
+\usepackage[utf8]{inputenc}
+
+\usepackage{parskip}
+\setlength{\parskip}{0.4em}
+
+\usepackage{multicol} % This is so we can have multiple columns of text side-by-side
+\columnsep=100pt % This is the amount of white space between the columns in the poster
+\columnseprule=3pt
+
+\usepackage[svgnames]{xcolor}
+\usepackage{times} % Use the times font
+
+\usepackage{graphicx} % Required for including images
+\graphicspath{{images/}} % Location of the graphics files
+%\usepackage{booktabs} % Top and bottom rules for table
+\usepackage[font=small,labelfont=bf]{caption} % Required for specifying captions to tables and figures
+\usepackage{wrapfig} % Allows wrapping text around tables and figures
+\usepackage{booktabs} % Top and bottom rules for table
+
+\definecolor{red}{RGB}{144,26,30}
+
+\begin{document}
+
+\begin{minipage}[t]{0.95\linewidth}
+\vspace{0.5cm}
+\begin{center}
+\Huge \color{red} \textbf{A brief history of the rise of e-business and specialised software development, the influence of the global COVID-19 pandemic on e-commerce and a review of important associated literature.} \color{Black} \\ [0.5cm]% Title
+\Large \textbf{Isabella Andrews, Stephen Watson, Jake Whamond and Huanhuan Zheng} \\ [0.5cm] % Author(s)
+\Large COMP1010 Computing Fundamentals - Semester 1, 2021 \\ Assignment 1: Poster \\ [0.4cm]
+\end{center}
+\end{minipage}
+\vspace{1cm}
+
+\begin{multicols}{2}
+
+\begin{abstract}
+This report aims to introduce and define e-business, provide a history of e-business and describe its relationship with specialised software. We also examine the effects of the 2020 COVID-19 global pandemic on e-commerce, specifically as it relates to specialised software development. \par
+Change and evolution are constant in technology, particularly when pairing e-business and a global pandemic such as COVID-19. A shift in priorities within the realm of academic research and the world might result in the evolution and development of new specialised software as humankind continues to evolve and adapt to their circumstances and environment. \par
+COVID-19 is one of the most significant events to occur in our lifetime. It is essential to understand the impact in the present and how such a disruption will shape the future. Through the internet, e-business has risen to the challenge of using specialised software to keep students in school and employees in jobs. Furthermore, allowing business and economies to recover and supporting vital government agencies like healthcare in times of mass turmoil. \par
+The findings of this report show how the different branches of e-business have been able to grow considerably in times of crisis due to adaptability. Moreover, the results show how they can handle sizeable disruptions, encompassing massive losses short term, and bounce back over a reasonably short time frame. These conclusions reiterate how specialised software, with this flexibility and ability to adapt, is becoming the backbone of e-business and why it is here to stay. \par
+\end{abstract}
+
+\color{Teal}
+
+\section*{Introduction}
+The core concept of business is the production and sale of goods and services. Our early ancestors could never have imagined a 21st Century where the world conducts business using handheld computerised devices. There were earlier explorations into electronic business (e-business). However, a New York Times issue from 1994 titled ‘Attention Shoppers: Internet is Open’ \cite{lewis} heralded a new era of possibilities. Business models migrated from ‘bricks and mortar stores to embracing an online presence, creating an opportunity to develop specialised software. \par 
+Since the 1990s, e-business and e-commerce have moved along at a steady but unhurried pace; however, the global COVID-19 pandemic of 2020 saw most of the world’s population staying home. The results of global lockdowns saw the forceful transition of businesses to online platforms to ensure their survival. This phenomenon created a boom in the associated software development. \par
+
+\color{DarkSlateGray} % DarkSlateGray color for the rest of the content
+
+\section*{Definitions}
+The general population is well accustomed to using the ‘e’ prefix to represent ‘electronic’ (think email, eBooks and e-banking). However, it is helpful to first define e-business, e-commerce and specialised software before exploring the relationship between them. \par
+\textbf{e-Business}, although often used interchangeably with e-commerce, describes both a business that operates in an electronic format and the technologies used to support its online presence. e-business encompasses information, communication, and transaction \cite{ionos}. These have experienced radical change and exponential growth due to COVID-19. \textbf{e-Commerce} refers to the online trade of products and service. e-Commerce is a vital component of e-business; however, it is not the only component. \par
+Britannica \cite{britannica} defines \emph{software} as a set of instructions, rules, and procedures associated with the general operation of a computer system. However, \textbf{specialised software} design meets a specific need and functionality required by an individual, group or business. e-Business requires the development and use of specialised software to store and retrieve digital information, facilitate communication, and streamline business processes. From being able to process payments, check a client’s history and store specific and often business-critical data. \par
+
+\section*{History}
+Traditionally the term business alludes to a rectangular building with a double-height exterior and bold signage. There is a brightly lit window with goods and services on display and a warm welcome by customer service staff. There will be a counter possibly seating for customers that and a method of exchanging payment. Primarily known as the beforementioned ‘bricks and mortar’ model, this has been a recognisable business incarnation for several hundred years. \par 
+
+With the technological developments of the industrial age (typewriters and printing machines) and the introduction of computers in the mid 20th Century, business practices have shifted steadily from pen and paper to various forms of computerisation. Advances were made possible with the introduction of word processing software. Microsoft Word and associated Suite emerged as the industry standard in the early 1990s \cite{redmond}. These developments assisted businesses by increasing operational efficiencies. The world did not anticipate that companies might be leaving behind their physical locations to move into the stratosphere of the newly born dial-up internet of the 1990s. \par 
+
+The sale of a \$12.48 compact disc (CD) acted as the historical ribbon-cutting ceremony of online shopping. It alerted the world to the possibility and potential of e-business and e-commerce. On 11 August 1994, a 21-year-old Pennsylvanian college student sold a copy of Sting’s ‘Ten Summoner’s Tales’ (Figure \ref{fig:sting}) to a friend. This exchange was completed over the internet using a secure credit card transaction \cite{arcand}.
+
+\begin{wraptable}{l}{13cm} % Left or right alignment is specified in the first bracket, the width of the table is in the second
+\begin{center}
+%\vspace{1cm}
+\includegraphics[width=0.85\linewidth]{sting.jpeg}
+\captionof{figure}{Sting’s ‘Ten Summoner’s Tales’ \cite{sting}}
+\label{fig:sting}
+\end{center}
+%\vspace{1cm}
+\end{wraptable}
+
+What is interesting in this case is how the reports at the time focused not on the internet’s capability but its security, the data encryption software, and were vigorous in guaranteeing user’s privacy, “It’s really clear that most companies want the security prior to doing major commitments to significant electronic commerce on the Internet” \cite{lewis}. The internet had already created a digital space for business and commerce to exist, but preventing the launch was the fear of the interception of private details. It was at this junction that specialised software came into play in a new and vital way. Essentially, e-business was not born with the creation of the internet. Instead, creation occurred when a college student took an existing version of data encryption software and moulded it into software that could support a secure credit card transaction. \par
+
+\section*{Developments during COVID-19}
+For context, it is helpful to separate e-business into three prominent areas: information, communication, transaction. Allowing us to examine how the global COVID-19 pandemic of 2020 has affected specialised software development and created a possibly permanent shift in business practices. \par 
+
+\subsection*{Information}
+Information can be viewed as the cornerstone of any e-business and encompasses all forms of data required by the business to function daily and produce or deliver its product or service. However, The COVID-19 pandemic required many companies in Australia to close their doors entirely. The global pandemic severely impacted the delivery of goods and services due to mandatory lockdowns and the government policies surrounding social distancing. With an estimated 70\% of the workforce being forced to complete a portion of their hours remotely, software companies needed to move quickly. \cite{diamond}. The utilisation of existing technologies, such as cloud storage, file sharing, and real-time document collaboration services, meant employees could access, use, and modify vital business information collectively and, therefore, perform tasks as per their pre-COVID-19 role. \par 
+Software development in this area included automatic synchronisation across various folders and devices, password-protected files, file activity alerts, shared file folders and offline accessibility (Diamond, 2020). \par
+
+\subsection*{Communication}
+For a business to operate effectively, there must be clear communication channels between employees, the company and its customers. This channel was broken, almost overnight, during the height of COVID-19 lockdowns. \par 
+The most popular and perhaps surprising development for internal communication was the almost immediate boom of video conferencing platforms; welcome, Zoom. Initially launched in 2013, Zoom was the brainchild of a computer geek who longed for an easier way to chat with his long-distance girlfriend. What was different about this software from previous video conferencing services was the ability to host multiple locations simultaneously. Along with a limited version made available for free, this same feature saw two hundred million people using Zoom in March 2020 for business, education, and socialisation \cite{enssle}. \par 
+Retail companies, in particular, were forced to move entirely online to advertise, and this situation certainly favoured those businesses flexible enough to use technology to their advantage. Enter augmented reality, aka, AR. Originally associated with gaming, such as the famous Pokémon Go app of 2016 (Figure \ref{fig:snorlax}), AR provides an interactive experience of a real-world environment (Franklin Institute, 2021). Innovative retail companies in 2020 quickly latched onto AR as a way of delivering a unique and exciting shopping experience to an isolated customer base. Interestingly, furniture stores and home retailers, such as Home Depot and IKEA, embraced this technology the most successfully \cite{mckinnon}. Customers could download a specially developed app to their smartphones and use the inbuilt camera to view a real-world image of their living space. They could then digitally insert a piece of furniture to effectively “try before you buy”. \par 
+
+\begin{wraptable}{l}{12cm} % Left or right alignment is specified in the first bracket, the width of the table is in the second
+\begin{center}
+%\vspace{1cm}
+\includegraphics[width=0.6\linewidth]{snorlax.jpeg}
+\captionof{figure}{Pokemon Go's Snorax \cite{snorlax}}
+\label{fig:snorlax}
+\end{center}
+%\vspace{1cm}
+\end{wraptable}
+
+Additionally, automated text messaging and chatbots simultaneously advance effective communication to an unlimited number of customers and bypass the need to rely on replying to individual email or social media messages. \par
+
+\subsection*{Transaction}
+The ultimate purpose of business is to lead to a transaction between the company and the customer. ‘Online shopping’ has existed in some form for a couple of decades; however, it was primarily an option rather than a necessity. It was often viewed with a level of trepidation by businesses and customers with lower digital literacy levels. \par 
+During this time, e-commerce experienced exponential growth during the COVID-19 pandemic, to the tune of \$52.2 billion worth of sales in Australia in 2020 \cite{knowles}. This spike in demand required businesses to introduce new and creative ways to buy and sell while maintaining security. What emerged during COVID-19 was the battle between the seller-centric security software and the quality of the user’s experience. Businesses struggled to find the perfect balance between minimising fraud and attracting customers \cite{kemp}. However, this is not new but rather an issue exacerbated by the swift and sudden growth of e-commerce within 2020. What has emerged is the need for versatility in software. This certain flexibility will allow e-commerce software to be adapted to suit an individual business’ needs. \par 
+
+e-Business has also expanded with individual business applications (apps). These software applications can be downloaded to a device, allowing the customer to remain logged in and facilitate faster transactions. With 72\% of customers using smartphones to shop online \cite{columbus}, apps effectively circumvent a website’s need and enable checkout on a smaller screen. Some mobile apps offer ‘click and collect’, allowing customers to pick up pre-purchased goods and in-store self-scanning. This strategy was paramount during the pandemic to interact with the millions of mobile device users. \par
+
+%\section*{Literature Review}
+
+\color{Teal}
+
+\section*{Conclusions}
+The shortage of recent and relevant articles exploring the convergence of e-business and specialised software do not necessarily define these topics as unimportant. \par 
+Due to the continuous promotion of the social economy, people’s demand for science and technology has become immense. Customers want to enjoy the convenience of the internet and meet the absolute security of their private information. It requires us to continue exploring and studying customer privacy and security in software development into the future. Nevertheless, the development of science and technology is still rapid and stable. \par 
+This report highlights that the traditional business model cannot adapt to the Internet era. Thus, specialised software will be the driving force for future businesses and economic recovery. \par
+
+\color{DarkSlateGray}
+
+%\nocite{*} % Print all references
+\bibliographystyle{apalike} % APA referencing style
+\bibliography{poster} % Use the example bibliography file sample.bib
+
+\section*{Acknowledgements}
+The authors would like to thank the staff at Lake Macquarie Library in Swansea, NSW.
+
+\end{multicols}
+
+\end{document}
